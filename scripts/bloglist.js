@@ -1,10 +1,14 @@
 // Funcion to remove Blogs.
+
+/*
+// Remove Cards Function
+
 function removeCard(card) {
     let delCard = document.getElementById(card);
 
     delCard.parentNode.removeChild(delCard);
 }
-
+*/
 function openPost(author, heading, content) {
     var url =
             '../html/post.html?heading=' +
